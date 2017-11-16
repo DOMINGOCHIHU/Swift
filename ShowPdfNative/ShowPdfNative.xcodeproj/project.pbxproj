@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3292A6821FBD52280006A692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292A6811FBD52280006A692 /* AppDelegate.swift */; };
+		3292A6841FBD52280006A692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292A6831FBD52280006A692 /* ViewController.swift */; };
+		3292A6871FBD52280006A692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3292A6851FBD52280006A692 /* Main.storyboard */; };
+		3292A68A1FBD52280006A692 /* ShowPdfNative.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3292A6881FBD52280006A692 /* ShowPdfNative.xcdatamodeld */; };
+		3292A68C1FBD52280006A692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3292A68B1FBD52280006A692 /* Assets.xcassets */; };
+		3292A68F1FBD52280006A692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3292A68D1FBD52280006A692 /* LaunchScreen.storyboard */; };
+		3292A6991FBD60150006A692 /* mypdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3292A6981FBD60150006A692 /* mypdf.pdf */; };
+		3292A69B1FBD629A0006A692 /* Expert Android Studio.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3292A69A1FBD629A0006A692 /* Expert Android Studio.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3292A67E1FBD52280006A692 /* ShowPdfNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowPdfNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3292A6811FBD52280006A692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3292A6831FBD52280006A692 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3292A6861FBD52280006A692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3292A6891FBD52280006A692 /* ShowPdfNative.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShowPdfNative.xcdatamodel; sourceTree = "<group>"; };
+		3292A68B1FBD52280006A692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3292A68E1FBD52280006A692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3292A6901FBD52280006A692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3292A6981FBD60150006A692 /* mypdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = mypdf.pdf; sourceTree = "<group>"; };
+		3292A69A1FBD629A0006A692 /* Expert Android Studio.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Expert Android Studio.pdf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3292A67B1FBD52280006A692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3292A6751FBD52280006A692 = {
+			isa = PBXGroup;
+			children = (
+				3292A6801FBD52280006A692 /* ShowPdfNative */,
+				3292A67F1FBD52280006A692 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3292A67F1FBD52280006A692 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3292A67E1FBD52280006A692 /* ShowPdfNative.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3292A6801FBD52280006A692 /* ShowPdfNative */ = {
+			isa = PBXGroup;
+			children = (
+				3292A69A1FBD629A0006A692 /* Expert Android Studio.pdf */,
+				3292A6981FBD60150006A692 /* mypdf.pdf */,
+				3292A6811FBD52280006A692 /* AppDelegate.swift */,
+				3292A6831FBD52280006A692 /* ViewController.swift */,
+				3292A6851FBD52280006A692 /* Main.storyboard */,
+				3292A68B1FBD52280006A692 /* Assets.xcassets */,
+				3292A68D1FBD52280006A692 /* LaunchScreen.storyboard */,
+				3292A6901FBD52280006A692 /* Info.plist */,
+				3292A6881FBD52280006A692 /* ShowPdfNative.xcdatamodeld */,
+			);
+			path = ShowPdfNative;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3292A67D1FBD52280006A692 /* ShowPdfNative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3292A6931FBD52280006A692 /* Build configuration list for PBXNativeTarget "ShowPdfNative" */;
+			buildPhases = (
+				3292A67A1FBD52280006A692 /* Sources */,
+				3292A67B1FBD52280006A692 /* Frameworks */,
+				3292A67C1FBD52280006A692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShowPdfNative;
+			productName = ShowPdfNative;
+			productReference = 3292A67E1FBD52280006A692 /* ShowPdfNative.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3292A6761FBD52280006A692 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JDCH;
+				TargetAttributes = {
+					3292A67D1FBD52280006A692 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3292A6791FBD52280006A692 /* Build configuration list for PBXProject "ShowPdfNative" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3292A6751FBD52280006A692;
+			productRefGroup = 3292A67F1FBD52280006A692 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3292A67D1FBD52280006A692 /* ShowPdfNative */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3292A67C1FBD52280006A692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3292A68F1FBD52280006A692 /* LaunchScreen.storyboard in Resources */,
+				3292A6991FBD60150006A692 /* mypdf.pdf in Resources */,
+				3292A69B1FBD629A0006A692 /* Expert Android Studio.pdf in Resources */,
+				3292A68C1FBD52280006A692 /* Assets.xcassets in Resources */,
+				3292A6871FBD52280006A692 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3292A67A1FBD52280006A692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3292A6841FBD52280006A692 /* ViewController.swift in Sources */,
+				3292A68A1FBD52280006A692 /* ShowPdfNative.xcdatamodeld in Sources */,
+				3292A6821FBD52280006A692 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3292A6851FBD52280006A692 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3292A6861FBD52280006A692 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3292A68D1FBD52280006A692 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3292A68E1FBD52280006A692 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3292A6911FBD52280006A692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3292A6921FBD52280006A692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3292A6941FBD52280006A692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShowPdfNative/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDCH.ShowPdfNative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3292A6951FBD52280006A692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShowPdfNative/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDCH.ShowPdfNative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3292A6791FBD52280006A692 /* Build configuration list for PBXProject "ShowPdfNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3292A6911FBD52280006A692 /* Debug */,
+				3292A6921FBD52280006A692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3292A6931FBD52280006A692 /* Build configuration list for PBXNativeTarget "ShowPdfNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3292A6941FBD52280006A692 /* Debug */,
+				3292A6951FBD52280006A692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3292A6881FBD52280006A692 /* ShowPdfNative.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3292A6891FBD52280006A692 /* ShowPdfNative.xcdatamodel */,
+			);
+			currentVersion = 3292A6891FBD52280006A692 /* ShowPdfNative.xcdatamodel */;
+			path = ShowPdfNative.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3292A6761FBD52280006A692 /* Project object */;
+}
